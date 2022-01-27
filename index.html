@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQuery</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid lightgray;
+            border-radius: 30px;
+            margin: 10px;
+            width: 400px;
+
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width:760px){
+            .container{
+                flex-direction: column;
+            }
+         .container .food{
+             background-color: rosybrown;
+         }   
+        }
+        @media (min-width:1200px){
+         .container .food{
+             background-color: skyblue;
+         }   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="image/fruit.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tenetur optio provident doloribus sequi ad distinctio unde dolorem. Sapiente adipisci autem ratione ducimus eaque error quasi esse doloremque sunt voluptatum, impedit minus cupiditate, libero eius pariatur corporis beatae voluptatem ut.</p>
+        </div>
+        <div class="food">
+            <img src="image/fruit.jpg" alt="">
+            <p>Dolor eveniet delectus laborum sint rem error et beatae quis! Aut esse quod libero praesentium magni, labore dignissimos eaque vitae, dolorem, necessitatibus dicta laboriosam veniam delectus quae minima quam asperiores inventore adipisci quasi. Officia maxime exercitationem quis iusto, culpa deserunt?</p>
+        </div>
+        <div class="food">
+            <img src="image/fruit.jpg" alt="">
+            <p>Et ab quae nulla perspiciatis voluptatem non corrupti vel consectetur dolore inventore, deleniti modi deserunt rerum minima mollitia distinctio qui. Ad consequuntur possimus maxime fugit alias accusantium similique perferendis cupiditate, quis animi id quo rerum nam aspernatur eum blanditiis beatae.</p>
+        </div>
+        <div class="food">
+            <img src="image/fruit.jpg" alt="">
+            <p>Non placeat eum excepturi facere ratione laboriosam nihil ex? Eaque, fugit sunt amet tempora consectetur necessitatibus libero, qui repellat illo sit optio, vitae voluptates facilis ullam? Cupiditate, dolorem obcaecati qui deserunt praesentium ea natus excepturi quis suscipit! Fuga, perspiciatis quo!</p>
+        </div>
+        <div class="food">
+            <img src="image/fruit.jpg" alt="">
+            <p>Delectus illum, ducimus minus possimus commodi pariatur porro nihil suscipit officia alias saepe. Odio quam aliquam provident repellendus obcaecati explicabo. Maxime, dicta tenetur magni veniam nam, at, architecto cupiditate autem repudiandae eum odio necessitatibus consequatur deleniti facere ipsa. Atque, eum.</p>
+        </div>
+        <div class="food">
+            <img src="image/fruit.jpg" alt="">
+            <p>Quod laborum harum omnis commodi corporis! Nemo odit earum rerum inventore? Voluptate temporibus sint numquam consequatur sapiente ratione hic reiciendis dolor non accusamus, modi, voluptatibus dolores aut facilis, placeat aspernatur quam commodi laudantium. Ut debitis iure perspiciatis quidem, quibusdam autem!</p>
+        </div>
+    </div>
+</body>
+</html>
